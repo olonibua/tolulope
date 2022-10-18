@@ -232,11 +232,11 @@ const Home = (props) => {
                  <img className='mx-auto float-right' src={process} alt='' />
              </div>
              <div className=' w-[200px] text-[11px] sm:text-xs mx-4 py-2'>
-             <p className='flex py-2 p items-center'><img className='w-[20px]'  alt='' /> Figma</p>  
-             <p className='flex py-2 p items-center'><img className='w-[20px]'  alt='' /> Photoshop</p>
-             <p className='flex py-2 p items-center'><img className='w-[20px]'  alt='' />Adobe Illustrator</p>
-             <p className='flex py-2 p items-center'><img className='w-[20px]'  alt='' /> Adobe Affect Effect</p>
-             <p className='flex py-2 p items-center'><img className='w-[20px]'  alt='' />Adobe XD</p>
+             <p className='flex py-2 p items-center'><img className='w-[20px]' src={figma} alt='' /> Figma</p>  
+             <p className='flex py-2 p items-center'><img className='w-[20px]' src={photoshop} alt='' /> Photoshop</p>
+             <p className='flex py-2 p items-center'><img className='w-[20px]' src={illustrator} alt='' />Adobe Illustrator</p>
+             <p className='flex py-2 p items-center'><img className='w-[20px]' src={animate} alt='' /> Adobe Affect Effect</p>
+             <p className='flex py-2 p items-center'><img className='w-[20px]' src={adobexd} alt='' />Adobe XD</p>
              </div>
           </div>
          }
@@ -248,11 +248,11 @@ const Home = (props) => {
                 <img className='mx-auto float-right' src={process} alt='' />
             </div>
             <div className=' w-[170px] h-[150px] text-[11px] sm:text-xs mx-4'>
-                <p className='flex py-2 p items-center'><img className='px-1'  alt='' /> HTML</p>  
-                <p className='flex py-2 p items-center'><img className='px-1'  alt='' /> CSS</p>
-                <p className='flex py-2 p items-center'><img className='px-1'  alt='' />Javascript</p>
-                <p className='flex py-2 p items-center'><img className='px-1'  alt='' /> React</p>
-                <p className='flex py-2 p items-center'><img className='px-1'  alt='' />Wordpress</p>
+                <p className='flex py-2 p items-center'><img className='px-1' src={html} alt='' /> HTML</p>  
+                <p className='flex py-2 p items-center'><img className='px-1' src={css} alt='' /> CSS</p>
+                <p className='flex py-2 p items-center'><img className='px-1' src={javascript} alt='' />Javascript</p>
+                <p className='flex py-2 p items-center'><img className='px-1' src={Reactt} alt='' /> React</p>
+                <p className='flex py-2 p items-center'><img className='px-1' src={wordpress} alt='' />Wordpress</p>
             </div>
          </div>
         }
