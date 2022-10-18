@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tolulope/static/css/main.236d4a18.css",
+    "main.js": "/tolulope/static/js/main.8bcea2ed.js",
+    "static/media/pocketone.png": "/tolulope/static/media/pocketone.9fefeb39639fc5afa58a.png",
+    "static/media/face.png": "/tolulope/static/media/face.7d38e9346740a31ff953.png",
+    "static/media/Abouto.png": "/tolulope/static/media/Abouto.cf4751fe195043659d34.png",
+    "static/media/backgroundo0.png": "/tolulope/static/media/backgroundo0.d668a285929aa49a1e27.png",
+    "static/media/circle.png": "/tolulope/static/media/circle.4be59b4747a193eb8ed1.png",
+    "static/media/info.png": "/tolulope/static/media/info.80aae31d738350ff7eee.png",
+    "static/media/edu.png": "/tolulope/static/media/edu.bbf42646e3b2721b01ee.png",
+    "index.html": "/tolulope/index.html",
+    "main.236d4a18.css.map": "/tolulope/static/css/main.236d4a18.css.map",
+    "main.8bcea2ed.js.map": "/tolulope/static/js/main.8bcea2ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.236d4a18.css",
+    "static/js/main.8bcea2ed.js"
+  ]
+}
