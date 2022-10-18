@@ -172,14 +172,14 @@ const Home = (props) => {
             understanding of design as a problem solving process. i'm commited to solving complex problems through data driven processes that translate business objective to its reality. 
                 </p>
                 
-                <p className='text-[10px] text-white pb-2  p sm:text-xs md:text-sm'><span className='text-white inline-block'>My Journey! -</span> "My interest in web development started back in high school, more than my buddies, i was always intrigued by technology. 
+                <p className='text-[10px] text-white pb-2 hidden sm:block p sm:text-xs md:text-sm'><span className='text-white inline-block'>My Journey! -</span> "My interest in web development started back in high school, more than my buddies, i was always intrigued by technology. 
                 This led to my appointment as the junior <strong>CISCO </strong>instructor for my level. I printed a 500 pages book on HTML and CSS after high school to learn how to create websites
                     but as soon as i moved to the University, i was focused on my academic work. My love has always been website creation therefore after my Bachelor's degree,
                     i enrolled in various web development courses which broadens my knowlegde".
 
                 </p>
     
-            <p className='text-[10px] text-white pt-2 p sm:text-xs md:text-sm'> Having attained the necessary competence, my main focus
+            <p className='text-[10px] text-white pt-2 hidden sm:block p sm:text-xs md:text-sm'> Having attained the necessary competence, my main focus
              these days is building accessible, inclusive products and digital
             experiences as much as possible. My goal is to secure a responsive carreer opportunity to fully utilize my skills, while making 
             significant contributions to achieve goals of a company that focus on customer satisfaction and experience.</p>
