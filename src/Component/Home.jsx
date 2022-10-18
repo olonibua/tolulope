@@ -232,11 +232,11 @@ const Home = (props) => {
                  <img className='mx-auto float-right' src={process} alt='' />
              </div>
              <div className=' w-[200px] text-[11px] sm:text-xs mx-4 py-2'>
-             <p className='flex py-2 p items-center'><img className='w-[20px]' src={figma} alt='' /> Figma</p>  
-             <p className='flex py-2 p items-center'><img className='w-[20px]' src={photoshop} alt='' /> Photoshop</p>
-             <p className='flex py-2 p items-center'><img className='w-[20px]' src={illustrator} alt='' />Adobe Illustrator</p>
-             <p className='flex py-2 p items-center'><img className='w-[20px]' src={animate} alt='' /> Adobe Affect Effect</p>
-             <p className='flex py-2 p items-center'><img className='w-[20px]' src={adobexd} alt='' />Adobe XD</p>
+             <p className='flex py-2 p items-center'><img className='w-[20px]'  alt='' /> Figma</p>  
+             <p className='flex py-2 p items-center'><img className='w-[20px]'  alt='' /> Photoshop</p>
+             <p className='flex py-2 p items-center'><img className='w-[20px]'  alt='' />Adobe Illustrator</p>
+             <p className='flex py-2 p items-center'><img className='w-[20px]'  alt='' /> Adobe Affect Effect</p>
+             <p className='flex py-2 p items-center'><img className='w-[20px]'  alt='' />Adobe XD</p>
              </div>
           </div>
          }
@@ -248,11 +248,11 @@ const Home = (props) => {
                 <img className='mx-auto float-right' src={process} alt='' />
             </div>
             <div className=' w-[170px] h-[150px] text-[11px] sm:text-xs mx-4'>
-                <p className='flex py-2 p items-center'><img className='px-1' src={html} alt='' /> HTML</p>  
-                <p className='flex py-2 p items-center'><img className='px-1' src={css} alt='' /> CSS</p>
-                <p className='flex py-2 p items-center'><img className='px-1' src={javascript} alt='' />Javascript</p>
-                <p className='flex py-2 p items-center'><img className='px-1' src={Reactt} alt='' /> React</p>
-                <p className='flex py-2 p items-center'><img className='px-1' src={wordpress} alt='' />Wordpress</p>
+                <p className='flex py-2 p items-center'><img className='px-1'  alt='' /> HTML</p>  
+                <p className='flex py-2 p items-center'><img className='px-1'  alt='' /> CSS</p>
+                <p className='flex py-2 p items-center'><img className='px-1'  alt='' />Javascript</p>
+                <p className='flex py-2 p items-center'><img className='px-1'  alt='' /> React</p>
+                <p className='flex py-2 p items-center'><img className='px-1'  alt='' />Wordpress</p>
             </div>
          </div>
         }
@@ -298,7 +298,16 @@ const Home = (props) => {
       </div>
         {project === 'Development' && 
         <div className='py-5 items-center grid md:grid-cols-3'>
-            <div className=' bgg border-2 md:border-4 text-center mx-auto bg mt-4 p h-72 w-72  py-10'>
+           
+         <div className=' bgg border-2 md:border-4 text-center mx-auto bg mt-4 p h-72 w-72  py-10'>
+           <h2 className='font-bold text-[14px] md:text-[17px]'>Learn</h2>
+            <p className='p-2 my-4 text-[10px] md:text-xs'>Designed and Developed a learning platform for users to find out if they will make a good Designer or Developer - Javascript - React - Tailwind Css </p>
+           <div className='grid grid-cols-2'>
+            <p className='flex p-2 text-[10px] md:text-xs font-bold mx-2 underline underline-offset-2 text-center '><a href='https://olonibua.github.io/learn/' target='_blank'>Live site </a> <img className='text-center h-3 mx-2 mt-1' src={Arrow} alt=''/></p>
+            <p className='flex p-2 text-[10px] md:text-xs font-bold mx-2 underline underline-offset-2 text-center '><a href='https://github.com/olonibua/learn' target='_blank'>Github</a> <img className='text-center h-3 mx-2 mt-1' src={Arrow} alt=''/></p>
+           </div>
+        </div>
+        <div className=' bgg border-2 md:border-4 text-center mx-auto bg mt-4 p h-72 w-72  py-10'>
            <h2 className='font-bold text-[14px] md:text-[17px]'>Coin App </h2>
             <p className='p-2 my-4 text-[10px] md:text-xs'>Designed and Developed a crypto market website using React - Javascript - Axios - API from Coingecko</p>
            <div className='grid grid-cols-2'>
@@ -307,14 +316,6 @@ const Home = (props) => {
            </div>
         </div>
             
-         <div className=' bgg border-2 md:border-4 text-center mx-auto bg mt-4 p h-72 w-72  py-10'>
-           <h2 className='font-bold text-[14px] md:text-[17px]'>Vscode </h2>
-            <p className='p-2 my-4 text-[10px] md:text-xs'>Developed the Vscode app startup page with its basic functionalities using React - Tailwind Css </p>
-           <div className='grid grid-cols-2'>
-            <p className='flex p-2 text-[10px] md:text-xs font-bold mx-2 underline underline-offset-2 text-center '><a href='https://olonibua.github.io/vscode/' target='_blank'>Live site </a> <img className='text-center h-3 mx-2 mt-1' src={Arrow} alt=''/></p>
-            <p className='flex p-2 text-[10px] md:text-xs font-bold mx-2 underline underline-offset-2 text-center '><a href='https://github.com/olonibua/vscode' target='_blank'>Github</a> <img className='text-center h-3 mx-2 mt-1' src={Arrow} alt=''/></p>
-           </div>
-        </div>
     
 
         <div className=' bgg border-2 md:border-4 text-center mx-auto bg mt-4 p h-72 w-72  py-10'>
@@ -342,6 +343,12 @@ const Home = (props) => {
            </div>
         </div>
         <div className=' bgg border-2 md:border-4 text-center mx-auto bg mt-4 p h-72 w-72  py-10'>
+           <h2 className='font-bold text-[14px] md:text-[17px]'>Vscode </h2>
+            <p className='p-2 my-4 text-[10px] md:text-xs'>Developed the Vscode app startup page with its basic functionalities using React - Tailwind Css </p>
+           <div className='grid grid-cols-2'>
+            <p className='flex p-2 text-[10px] md:text-xs font-bold mx-2 underline underline-offset-2 text-center '><a href='https://olonibua.github.io/vscode/' target='_blank'>Live site </a> <img className='text-center h-3 mx-2 mt-1' src={Arrow} alt=''/></p>
+            <p className='flex p-2 text-[10px] md:text-xs font-bold mx-2 underline underline-offset-2 text-center '><a href='https://github.com/olonibua/vscode' target='_blank'>Github</a> <img className='text-center h-3 mx-2 mt-1' src={Arrow} alt=''/></p>
+           </div>
         </div>
         </div>
           } 

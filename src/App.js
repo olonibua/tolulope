@@ -1,5 +1,5 @@
 import React from 'react'
-import { Themeprovider } from './context/ThemeContext';
+import { Themeprovider } from './Context/ThemeContext';
 
 import './App.css';
 

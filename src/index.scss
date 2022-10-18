@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+code {
+  font-family: serif,
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  @apply bg-primary text-primary
+}
+
+/* .rounded-div {
+  @apply border border-secondary 
+  rounded-2xl shadow-xl bg-primary px-2 max-w-[1140px] w-full mx-auto
+} */
+.h1{
+  font-family: 'Caudex';
+}
+.p{
+  font-family: 'Space Grotesk', sans-serif;
+  /* letter-spacing: 0.025em; */
+}
+
+.dark {
+  --color-bg-primary: rgb(12, 11, 15);
+  /* --color-bg-primary: #828282; */
+   color: rgb(238, 238, 238);
+   p{
+    color: rgb(152, 152, 152);
+   }
+   .bgg{
+    border-color: #fff;
+   }
+   .btn{
+    border-bottom: 1px solid rgb(55, 55, 55);
+   }
+   .btn:hover{
+    border-bottom: 1px solid #fff;
+    background-color: rgb(36, 36, 36);
+   }
+ 
+}
+
+
+.light{
+  --color-bg-primary: rgb(12, 11, 15);
+  /* --color-bg-primary: #828282; */
+   color: rgb(238, 238, 238);
+   p{
+    color: rgb(142, 142, 142);
+   }
+   .bgg{
+    border-color: #fff;
+   }
+   .btn{
+    border-bottom: 1px solid rgb(55, 55, 55);
+   }
+   .btn:hover{
+    border-bottom: 1px solid #fff;
+    background-color: rgb(36, 36, 36);
+   }
+}
+.ba{
+  font-family: 'roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wel-w{
+  position: relative;
+  display: block;
+
+  height: 140px;
+  top: 505;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.wel{
+  font-family: 'Inter', 'sans-serif';
+  font-size: 110px;
+  position: absolute;
+  display: block;
+  margin: auto auto;
+  color: rgb(30, 30, 32);
+  white-space: nowrap;
+  min-width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.wel span{
+  display: inline-block;
+  padding-left: 100%;
+  text-align: center;
+  animation: wel 20s linear infinite;
+  white-space: nowrap;
+  min-width: 100%;
+  height: 100%;
+  line-height: 140px;
+}
+
+@keyframes wel {
+  0%{
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.pa{
+  @media screen {
+    
+  }
+  display: block;
+
+}
+
+
+@keyframes wel {
+  0%{
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
